@@ -52,6 +52,15 @@ JSONは以下を使う。
 | `image_url` | 商品画像 |
 | `product_url` | 商品リンク |
 
+## ライブラリ
+
+SwiperをCDN読み込みで使う。
+
+```mermaid
+flowchart LR
+  A[Swiper CDN] --> B[下部ECカルーセル]
+```
+
 ## 挙動
 
 ```mermaid
@@ -67,6 +76,7 @@ flowchart LR
 | 停止時間 | 中央で3秒 |
 | 操作ボタン | なし |
 | 左右チラ見せ | あり |
+| ループ | あり |
 | リンク | 別タブで開く |
 | 動きを減らす設定 | スライド停止 |
 
