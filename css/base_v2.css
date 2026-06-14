@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-feature-settings: var(--font-feature-ja);
+  font-size: var(--text-md);
+  line-height: 1.7;
+  overflow-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+strong {
+  font-weight: 800;
+}
+
+small {
+  font-size: var(--text-xs);
+}

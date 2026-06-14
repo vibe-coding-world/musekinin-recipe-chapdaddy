@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>レシピ一覧 - 無責任レシピ</title>
+  <link rel="stylesheet" href="./css/style_v2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <script src="./js/app-header.js" defer></script>
+  <script src="./js/shop-banner.js" defer></script>
+  <script src="./js/app-footer.js" defer></script>
+</head>
+
+<body>
+  <div class="la_app">
+    <app-header back-href="index.html" title="無責任レシピ Chapdaddy" subtitle="今の気分で選ぶ"></app-header>
+
+    <main>
+      <section class="c_list-hero">
+        <img class="c_list-hero__image" src="./assets/images/home_hero_mood.png" alt="気分で選べる料理が並ぶ食卓">
+        <div class="c_list-hero__copy">
+          <p class="c_list-hero__eyebrow">Recipe List</p>
+          <h2 class="text-hd-t01">食べたい気分で選ぶ。</h2>
+          <p class="c_list-hero__text">迷ったら、今の腹具合に近いものから。</p>
+        </div>
+      </section>
+
+      <section class="la_section la_stack u_stack_20">
+        <div class="c_section-head">
+          <span class="c_section-head__number">01</span>
+          <h2 class="text-hd-t02">気分タグ</h2>
+        </div>
+
+        <div class="la_cluster c_filter-list" aria-label="気分タグ">
+          <span class="c_filter-tag c_filter-tag--active">全部</span>
+          <span class="c_filter-tag">ガッツリ</span>
+          <span class="c_filter-tag">さっぱり</span>
+          <span class="c_filter-tag">疲れてる</span>
+          <span class="c_filter-tag">酒飲みたい</span>
+        </div>
+      </section>
+
+      <section class="la_section la_stack u_stack_20">
+        <div class="c_section-head">
+          <span class="c_section-head__number">02</span>
+          <h2 class="text-hd-t02">レシピ</h2>
+          <p class="text-note-t03">7件</p>
+        </div>
+
+        <div class="la_grid c_recipe-list">
+          <a class="c_list-recipe c_list-recipe--featured" href="detail_uni_cream_pasta.html">
+            <img class="c_list-recipe__image" src="./assets/images/uni_cream_pasta_hero.png" alt="濃厚うにクリームパスタ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">今日の自分、よくやった</small>
+              <strong class="text-hd-t03">濃厚うにクリームパスタ</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>20分</span>
+                <span>★★★☆☆</span>
+                <span>780 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_ebi_tofu_manju.html">
+            <img class="c_list-recipe__image" src="./assets/images/ebi_tofu_manju_hero.png" alt="ふわっと海老の豆腐まんじゅう">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">夜遅めでも軽く満たす</small>
+              <strong class="text-hd-t03">ふわっと海老の豆腐まんじゅう</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>25分</span>
+                <span>★★☆☆☆</span>
+                <span>360 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_chicken_nanban.html">
+            <img class="c_list-recipe__image" src="./assets/images/chicken_nanban_hero.png" alt="しっとり甘だれチキン南蛮">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">仕事終わりにガツンと</small>
+              <strong class="text-hd-t03">しっとり甘だれチキン南蛮</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>25分</span>
+                <span>★★★☆☆</span>
+                <span>1650 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_kakuni.html">
+            <img class="c_list-recipe__image" src="./assets/images/kakuni_hero.png" alt="角煮">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">じっくり自分を労う</small>
+              <strong class="text-hd-t03">じっくり煮込む極上豚の角煮</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>3時間〜</span>
+                <span>★★★★☆</span>
+                <span>1580 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_hamburg.html">
+            <img class="c_list-recipe__image" src="./assets/images/hamburg_step_5_finish.png" alt="ハンバーグ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">ガッツリ食べたい日</small>
+              <strong class="text-hd-t03">びくどん風ハンバーグ</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>30分</span>
+                <span>★★★☆☆</span>
+                <span>1320 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_karaage.html">
+            <img class="c_list-recipe__image" src="./assets/images/karaage_hero.png" alt="からあげ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">揚げ物って幸せ</small>
+              <strong class="text-hd-t03">究極のからあげ</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>30分</span>
+                <span>★★★★☆</span>
+                <span>1550 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_gyu_buta_don.html">
+            <img class="c_list-recipe__image" src="./assets/images/gyu_buta_don_hero.png" alt="叙々苑風 牛豚丼">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">白米を主役にしたい</small>
+              <strong class="text-hd-t03">叙々苑風 牛豚丼</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>20分</span>
+                <span>★★★☆☆</span>
+                <span>820 kcal</span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <shop-banner></shop-banner>
+    <app-footer></app-footer>
+  </div>
+</body>
+
+</html>

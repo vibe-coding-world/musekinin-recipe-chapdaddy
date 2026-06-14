@@ -1,0 +1,50 @@
+:root {
+  --font-body: "Noto Sans JP", system-ui, sans-serif;
+  --font-number: "Oswald", system-ui, sans-serif;
+  --font-feature-ja: "palt" 1;
+  --text-box-ja: trim-both text;
+  --text-box-heading: trim-both cap alphabetic;
+
+  --text-base: clamp(0.875rem, 0.8232rem + 0.221vi, 1rem);
+  --text-2xs: calc(var(--text-base) * 8 / 11);
+  --text-xs: calc(var(--text-base) * 8 / 10);
+  --text-sm: calc(var(--text-base) * 8 / 9);
+  --text-md: var(--text-base);
+  --text-lg: calc(var(--text-base) * 8 / 7);
+  --text-xl: calc(var(--text-base) * 8 / 6);
+  --text-2xl: calc(var(--text-base) * 8 / 5);
+  --text-3xl: calc(var(--text-base) * 8 / 4);
+
+  --space-unit: 0.5rem;
+  --space-5: calc(var(--space-unit) * 0.5);
+  --space-10: var(--space-unit);
+  --space-15: calc(var(--space-unit) * 1.5);
+  --space-20: calc(var(--space-unit) * 2);
+  --space-30: calc(var(--space-unit) * 3);
+  --space-40: calc(var(--space-unit) * 5);
+  --space-50: calc(var(--space-unit) * 8);
+  --space-60: calc(var(--space-unit) * 13);
+
+  --color-page: #fffaf4;
+  --color-canvas: #f6f1ec;
+  --color-panel: #ffffff;
+  --color-soft: #fff5ea;
+  --color-ink: #241812;
+  --color-muted: #725f52;
+  --color-brand: #f26622;
+  --color-brand-half: rgb(242 102 34 / 50%);
+  --color-brand-deep: #9f4a16;
+  --color-cream: #fff1cf;
+  --color-line: #ead9c7;
+  --color-dark: #281b14;
+  --color-dark-soft: #2b211b;
+  --color-hero: #1f1712;
+  --color-hero-accent: #ffd6a8;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
+  --shadow-soft: 0 1.5rem 4rem rgba(36, 24, 18, 0.12);
+  --line-hair: 1px;
+  --measure-app: 30rem;
+}

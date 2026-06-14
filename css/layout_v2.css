@@ -1,0 +1,30 @@
+.la_app {
+  width: min(100%, var(--measure-app));
+  min-height: 100vh;
+  margin-inline: auto;
+  background: var(--color-page);
+  box-shadow: var(--shadow-soft);
+}
+
+.la_stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--stack-space, var(--space-20));
+}
+
+.la_cluster {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--cluster-space, var(--space-10));
+}
+
+.la_grid {
+  display: grid;
+  gap: var(--grid-space, var(--space-15));
+}
+
+.la_section {
+  padding: var(--section-space, var(--space-40)) var(--space-20);
+  border-block-end: var(--line-hair) solid var(--color-line);
+}

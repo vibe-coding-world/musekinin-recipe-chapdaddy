@@ -1,0 +1,77 @@
+.u_stack_5 {
+  --stack-space: var(--space-5);
+}
+
+.u_stack_10 {
+  --stack-space: var(--space-10);
+}
+
+.u_stack_15 {
+  --stack-space: var(--space-15);
+}
+
+.u_stack_20 {
+  --stack-space: var(--space-20);
+}
+
+.u_stack_30 {
+  --stack-space: var(--space-30);
+}
+
+.u_section_compact {
+  --section-space: var(--space-30);
+}
+
+.u_mbs_0 {
+  margin-block-start: 0;
+}
+
+.u_text_balance {
+  text-wrap: balance;
+}
+
+.u_text_pretty {
+  text-wrap: pretty;
+}
+
+.u_text_nowrap {
+  white-space: nowrap;
+}
+
+.u_text_break {
+  overflow-wrap: anywhere;
+}
+
+.u_show_pc {
+  display: none;
+}
+
+.u_show_sp {
+  display: initial;
+}
+
+.u_hide_sp {
+  display: none;
+}
+
+.u_hide_pc {
+  display: initial;
+}
+
+@media (min-width: 48rem) {
+  .u_show_pc {
+    display: initial;
+  }
+
+  .u_show_sp {
+    display: none;
+  }
+
+  .u_hide_sp {
+    display: initial;
+  }
+
+  .u_hide_pc {
+    display: none;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>無責任レシピ - ホーム</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style_v2.css">
+  <script src="./js/app-header.js" defer></script>
+  <script src="./js/shop-banner.js" defer></script>
+  <script src="./js/app-footer.js" defer></script>
+</head>
+
+<body>
+  <div class="la_app">
+    <app-header title="無責任レシピ Chapdaddy" subtitle="そのとおりにすれば「だいたい旨い」"></app-header>
+
+    <main>
+      <section class="c_home-hero">
+        <img class="c_home-hero__image" src="./assets/images/home_hero_cooking_01.png" alt="気分で選べる料理が並ぶ明るい食卓">
+        <div class="c_home-hero__copy">
+          <p class="c_home-hero__eyebrow">考えすぎない男飯</p>
+          <h2 class="text-hd-t01">今の気分で選ぶ。</h2>
+          <p class="c_home-hero__text">直感で決める。だいたい旨いところまで連れていく。</p>
+        </div>
+      </section>
+
+      <section class="la_section la_stack u_stack_20">
+        <!-- <div class="c_section-head">
+          <h2 class="text-hd-t02 text-hd-t02--brand">気分で選ぶ</h2>
+        </div> -->
+        <div class="c_section-head">
+          <span class="c_section-head__number">01</span>
+          <h2 class="text-hd-t02">気分で選ぶ</h2>
+        </div>
+
+
+        <div class="la_grid c_home-mood-grid">
+          <a href="list.html" class="c_home-mood">
+            <img class="c_home-mood__image" src="./assets/images/hamburg_hero.png" alt="ガッツリ食べたい日のハンバーグ">
+            <span class="c_home-mood__copy">
+              <strong class="c_home-mood__title">ガッツリ</strong>
+              <small class="c_home-mood__note">空腹時、外仕事後。</small>
+            </span>
+          </a>
+          <a href="list.html" class="c_home-mood">
+            <img class="c_home-mood__image" src="./assets/images/uni_pasta_step_5_finish.png" alt="さっぱり食べたい日の仕上げ料理">
+            <span class="c_home-mood__copy">
+              <strong class="c_home-mood__title">さっぱり</strong>
+              <small class="c_home-mood__note">夜遅い時、食欲が薄い時。</small>
+            </span>
+          </a>
+          <a href="list.html" class="c_home-mood">
+            <img class="c_home-mood__image" src="./assets/images/oyakodon_bowl.png" alt="疲れている日に食べたい親子丼">
+            <span class="c_home-mood__copy">
+              <strong class="c_home-mood__title">疲れてる</strong>
+              <small class="c_home-mood__note">やさしく栄養を入れる。</small>
+            </span>
+          </a>
+          <a href="list.html" class="c_home-mood">
+            <img class="c_home-mood__image" src="./assets/images/karaage_hero.png" alt="酒を飲みたい日のからあげ">
+            <span class="c_home-mood__copy">
+              <strong class="c_home-mood__title">酒飲みたい</strong>
+              <small class="c_home-mood__note">週末の晩酌のお供。</small>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="la_section la_stack u_stack_20">
+        <div class="c_section-head">
+          <span class="c_section-head__number">02</span>
+          <h2 class="text-hd-t02">おすすめ</h2>
+        </div>
+
+        <div class="la_grid c_home-recipe-grid">
+          <a href="detail_uni_cream_pasta.html" class="c_home-recipe">
+            <img class="c_home-recipe__image" src="./assets/images/uni_cream_pasta_hero.png" alt="濃厚うにクリームパスタ">
+            <div class="c_home-recipe__body">
+              <p class="c_home-recipe__scene">今日の自分、よくやった</p>
+              <h3 class="text-hd-t03">濃厚うにクリームパスタ</h3>
+              <div class="la_cluster c_home-recipe__meta">
+                <span>20分</span>
+                <span>★★★☆☆</span>
+              </div>
+            </div>
+          </a>
+          <a href="list.html" class="c_home-recipe c_home-recipe--compact">
+            <img class="c_home-recipe__image" src="./assets/images/karaage_hero.png" alt="からあげ">
+            <div class="c_home-recipe__body">
+              <p class="c_home-recipe__scene">揚げ物って幸せ</p>
+              <h3 class="text-hd-t03">究極のからあげ</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="la_section la_stack u_stack_20">
+        <div class="c_section-head">
+          <span class="c_section-head__number">03</span>
+          <h2 class="text-hd-t02">無責任レシピとは</h2>
+        </div>
+        <ul class="text-ul-t01">
+          <li>代表デザイナー コヤマの大学ノートの秘伝のレシピから発案したサイトです。</li>
+          <li>等の内容を掲載予定。調整中。</li>
+          <li>サイト間を繋ぐ要素。</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <shop-banner></shop-banner>
+    <app-footer></app-footer>
+  </div>
+</body>
+
+</html>
