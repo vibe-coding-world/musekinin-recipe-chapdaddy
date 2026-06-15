@@ -1,0 +1,55 @@
+shop-side-banners {
+  display: none;
+}
+
+@media (min-width: 1160px) {
+  shop-side-banners {
+    display: block;
+  }
+
+  .c_side-banners {
+    position: fixed;
+    inset-block-start: var(--space-50);
+    z-index: 2;
+    display: grid;
+    gap: var(--space-20);
+    width: 256px;
+  }
+
+  .c_side-banners__title {
+    display: grid;
+    justify-items: center;
+    gap: var(--space-5);
+    text-align: center;
+  }
+
+  .c_side-banners__icon {
+    width: 2.5rem;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+  }
+
+  .c_side-banners--left {
+    inset-inline-start: max(var(--space-20), calc((100vw - var(--measure-app)) / 2 - 21rem));
+  }
+
+  .c_side-banners--right {
+    inset-inline-end: max(var(--space-20), calc((100vw - var(--measure-app)) / 2 - 21rem));
+  }
+
+  .c_side-banners__item {
+    display: block;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--color-panel);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .c_side-banners__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

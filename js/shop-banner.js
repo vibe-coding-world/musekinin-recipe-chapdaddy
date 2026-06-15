@@ -121,8 +121,8 @@ class ShopBanner extends HTMLElement {
       return new window.Swiper(swiperElement, {
         loop: slideCount > 1,
         centeredSlides: true,
-        slidesPerView: 1.22,
-        spaceBetween: 8,
+        slidesPerView: 1.35,
+        spaceBetween: 16,
         speed: 420,
         autoplay: this.reduceMotion || slideCount <= 1
           ? false
