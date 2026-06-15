@@ -28,3 +28,9 @@
   padding: var(--section-space, var(--space-40)) var(--space-20);
   border-block-end: var(--line-hair) solid var(--color-line);
 }
+
+@media (max-width: 36rem) {
+  .la_section {
+    padding-block: var(--space-30);
+  }
+}
