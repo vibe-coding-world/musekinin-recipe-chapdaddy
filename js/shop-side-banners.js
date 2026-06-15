@@ -70,10 +70,10 @@ class ShopSideBanners extends HTMLElement {
 
     return `
       <aside class="c_side-banners c_side-banners--${side}" aria-label="${label}">
-        <h2 class="text-hd-t02 c_side-banners__title">
-          <img class="c_side-banners__icon" src="./assets/images/icon-chapdaddy.avif" alt="">
-          <span>${label}</span>
-        </h2>
+        <div class="c_heading c_heading--center">
+          <img class="c_heading__icon c_heading__icon--chapdaddy" src="./assets/images/icon-chapdaddy.avif" alt="">
+          <h2 class="text-hd-t02">${label}</h2>
+        </div>
         ${items}
       </aside>
     `;

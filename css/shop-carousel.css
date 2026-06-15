@@ -8,33 +8,6 @@ shop-banner {
   padding: var(--section-space, var(--space-40)) 0 0;
   overflow: hidden;
   background: var(--color-panel);
-
-  >.text-hd-t02 {
-    width: 100%;
-    text-align: center;
-  }
-
-}
-
-.c_shop-carousel__title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding-inline: var(--space-20);
-  gap: var(--space-10);
-  color: var(--color-dark);
-  font-size: var(--text-lg);
-  font-weight: 900;
-  line-height: 1.2;
-  text-box: var(--text-box-ja);
-}
-
-.c_shop-carousel__icon {
-  width: 2.5rem;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
-  margin-inline: auto;
 }
 
 .c_shop-carousel__swiper {

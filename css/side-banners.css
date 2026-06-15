@@ -16,19 +16,6 @@ shop-side-banners {
     width: 256px;
   }
 
-  .c_side-banners__title {
-    display: grid;
-    justify-items: center;
-    gap: var(--space-5);
-    text-align: center;
-  }
-
-  .c_side-banners__icon {
-    width: 2.5rem;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
-  }
-
   .c_side-banners--left {
     inset-inline-start: max(var(--space-20), calc((100vw - var(--measure-app)) / 2 - 21rem));
   }

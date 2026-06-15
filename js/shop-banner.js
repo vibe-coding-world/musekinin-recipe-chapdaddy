@@ -89,10 +89,10 @@ class ShopBanner extends HTMLElement {
 
     return `
       <section class="c_shop-carousel" aria-label="${title}">
-        <h2 class="text-hd-t02">
-          <img class="c_shop-carousel__icon" src="./assets/images/icon-chapdaddy.avif" alt="">
-          <span>${title}</span>
-        </h2>
+        <div class="c_heading c_heading--center">
+          <img class="c_heading__icon c_heading__icon--chapdaddy" src="./assets/images/icon-chapdaddy.avif" alt="">
+          <h2 class="text-hd-t02">${title}</h2>
+        </div>
         <div class="swiper c_shop-carousel__swiper" data-shop-swiper>
           <div class="swiper-wrapper">
             ${slides}

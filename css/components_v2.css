@@ -71,6 +71,32 @@
   }
 }
 
+.c_heading {
+  display: grid;
+  gap: var(--space-5);
+  color: var(--color-dark);
+}
+
+.c_heading--start {
+  justify-items: start;
+  text-align: start;
+}
+
+.c_heading--center {
+  justify-items: center;
+  text-align: center;
+  gap: 0;
+}
+
+.c_heading__icon {
+  object-fit: contain;
+}
+
+.c_heading__icon--chapdaddy {
+  width: 2.5rem;
+  aspect-ratio: 1 / 1;
+}
+
 .c_site-header {
   display: grid;
   grid-template-columns: 1.5rem 1fr 1.5rem;
