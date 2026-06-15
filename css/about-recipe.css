@@ -1,0 +1,95 @@
+.c_about-recipe {
+  position: relative;
+  display: grid;
+  min-height: 30rem;
+  overflow: hidden;
+  background-image:
+    linear-gradient(180deg, rgba(18, 13, 10, 0.42), rgba(18, 13, 10, 0.58)),
+    url("../assets/images/about_recipe_note.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: var(--color-panel);
+}
+
+.c_about-recipe__panel {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: var(--space-15);
+  width: min(100%, 28rem);
+  min-height: 30rem;
+  margin-inline: auto;
+  padding: var(--space-40) var(--space-20);
+  background: rgba(10, 8, 7, 0.4);
+  text-align: center;
+}
+
+.c_about-recipe__icon {
+  width: 2.5rem;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+}
+
+.c_about-recipe__title {
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  line-height: 1.2;
+  text-box: var(--text-box-ja);
+}
+
+.c_about-recipe__lead {
+  font-size: var(--text-md);
+  font-weight: 800;
+  text-box: var(--text-box-ja);
+  margin-block-start: var(--space-10);
+}
+
+.c_about-recipe__body {
+  display: grid;
+  gap: var(--space-10);
+  max-width: 22rem;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: 1.5;
+  text-box: var(--text-box-ja);
+}
+
+.c_about-recipe__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-10);
+  min-height: 2.75rem;
+  margin-block-start: var(--space-10);
+  padding: var(--space-10) var(--space-20);
+  border-radius: 999rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-dark);
+  font-size: var(--text-xs);
+  font-weight: 800;
+  text-decoration: none;
+  text-box: var(--text-box-ja);
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.c_about-recipe__link:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+.c_about-recipe__link .material-symbols-outlined {
+  font-size: 1.25rem;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+@media (max-width: 36rem) {
+  .c_about-recipe {
+    /* min-height: 34rem; */
+  }
+
+  .c_about-recipe__panel {
+    /* min-height: 34rem; */
+    padding: var(--space-20) var(--space-20);
+  }
+}
