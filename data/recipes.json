@@ -1,0 +1,80 @@
+{
+  "moods": [
+    { "id": "hearty", "label": "ガッツリ" },
+    { "id": "light", "label": "さっぱり" },
+    { "id": "tired", "label": "疲れてる" },
+    { "id": "drink", "label": "酒飲みたい" }
+  ],
+  "recipes": [
+    {
+      "title": "濃厚うにクリームパスタ",
+      "file": "detail_uni_cream_pasta.html",
+      "image": "./assets/images/uni_cream_pasta_hero.png",
+      "scene": "今日の自分、よくやった",
+      "time": "20分",
+      "difficulty": "★★★☆☆",
+      "calories": "780 kcal",
+      "moods": ["light", "tired"]
+    },
+    {
+      "title": "ふわっと海老の豆腐まんじゅう",
+      "file": "detail_ebi_tofu_manju.html",
+      "image": "./assets/images/ebi_tofu_manju_hero.png",
+      "scene": "夜遅めでも軽く満たす",
+      "time": "25分",
+      "difficulty": "★★☆☆☆",
+      "calories": "360 kcal",
+      "moods": ["light", "tired"]
+    },
+    {
+      "title": "しっとり甘だれチキン南蛮",
+      "file": "detail_chicken_nanban.html",
+      "image": "./assets/images/chicken_nanban_hero.png",
+      "scene": "仕事終わりにガツンと",
+      "time": "25分",
+      "difficulty": "★★★☆☆",
+      "calories": "1650 kcal",
+      "moods": ["hearty", "drink"]
+    },
+    {
+      "title": "じっくり煮込む極上豚の角煮",
+      "file": "detail_kakuni.html",
+      "image": "./assets/images/kakuni_hero.png",
+      "scene": "じっくり自分を労う",
+      "time": "3時間〜",
+      "difficulty": "★★★★☆",
+      "calories": "1580 kcal",
+      "moods": ["hearty", "tired", "drink"]
+    },
+    {
+      "title": "びくどん風ハンバーグ",
+      "file": "detail_hamburg.html",
+      "image": "./assets/images/hamburg_step_5_finish.png",
+      "scene": "ガッツリ食べたい日",
+      "time": "30分",
+      "difficulty": "★★★☆☆",
+      "calories": "1320 kcal",
+      "moods": ["hearty", "tired"]
+    },
+    {
+      "title": "究極のからあげ",
+      "file": "detail_karaage.html",
+      "image": "./assets/images/karaage_hero.png",
+      "scene": "揚げ物って幸せ",
+      "time": "30分",
+      "difficulty": "★★★★☆",
+      "calories": "1550 kcal",
+      "moods": ["hearty", "drink"]
+    },
+    {
+      "title": "叙々苑風 牛豚丼",
+      "file": "detail_gyu_buta_don.html",
+      "image": "./assets/images/gyu_buta_don_hero.png",
+      "scene": "白米を主役にしたい",
+      "time": "20分",
+      "difficulty": "★★★☆☆",
+      "calories": "820 kcal",
+      "moods": ["hearty", "tired"]
+    }
+  ]
+}
