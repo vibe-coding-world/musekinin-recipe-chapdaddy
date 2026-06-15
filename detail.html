@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapdaddy 無責任レシピ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style_v2.css">
+  <script src="./js/app-header.js" defer></script>
+  <script src="./js/detail-loader.js" defer></script>
+  <script src="./js/main.js" defer></script>
+  <script src="./js/shop-banner.js" defer></script>
+  <script src="./js/shop-side-banners.js" defer></script>
+  <script src="./js/app-footer.js" defer></script>
+</head>
+
+<body>
+  <div class="la_app">
+    <app-header back-href="list.html" title="無責任レシピ Chapdaddy" subtitle="そのとおりにすれば「だいたい旨い」"></app-header>
+
+    <main>
+      <div data-detail-content></div>
+      <section class="la_section" data-detail-error hidden>
+        <p class="text-p-t01">レシピを読み込めませんでした。</p>
+      </section>
+    </main>
+
+    <shop-banner></shop-banner>
+    <app-footer></app-footer>
+  </div>
+</body>
+
+</html>

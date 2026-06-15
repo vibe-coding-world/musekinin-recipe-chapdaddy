@@ -8,7 +8,7 @@
   "recipes": [
     {
       "title": "濃厚うにクリームパスタ",
-      "file": "detail_uni_cream_pasta.html",
+      "file": "detail.html?id=uni_cream_pasta",
       "image": "./assets/images/uni_cream_pasta_hero.png",
       "scene": "今日の自分、よくやった",
       "time": "20分",
@@ -18,7 +18,7 @@
     },
     {
       "title": "ふわっと海老の豆腐まんじゅう",
-      "file": "detail_ebi_tofu_manju.html",
+      "file": "detail.html?id=ebi_tofu_manju",
       "image": "./assets/images/ebi_tofu_manju_hero.png",
       "scene": "夜遅めでも軽く満たす",
       "time": "25分",
@@ -28,7 +28,7 @@
     },
     {
       "title": "しっとり甘だれチキン南蛮",
-      "file": "detail_chicken_nanban.html",
+      "file": "detail.html?id=chicken_nanban",
       "image": "./assets/images/chicken_nanban_hero.png",
       "scene": "仕事終わりにガツンと",
       "time": "25分",
@@ -38,7 +38,7 @@
     },
     {
       "title": "じっくり煮込む極上豚の角煮",
-      "file": "detail_kakuni.html",
+      "file": "detail.html?id=kakuni",
       "image": "./assets/images/kakuni_hero.png",
       "scene": "じっくり自分を労う",
       "time": "3時間〜",
@@ -48,7 +48,7 @@
     },
     {
       "title": "びくどん風ハンバーグ",
-      "file": "detail_hamburg.html",
+      "file": "detail.html?id=hamburg",
       "image": "./assets/images/hamburg_step_5_finish.png",
       "scene": "ガッツリ食べたい日",
       "time": "30分",
@@ -58,7 +58,7 @@
     },
     {
       "title": "究極のからあげ",
-      "file": "detail_karaage.html",
+      "file": "detail.html?id=karaage",
       "image": "./assets/images/karaage_hero.png",
       "scene": "揚げ物って幸せ",
       "time": "30分",
@@ -68,7 +68,7 @@
     },
     {
       "title": "叙々苑風 牛豚丼",
-      "file": "detail_gyu_buta_don.html",
+      "file": "detail.html?id=gyu_buta_don",
       "image": "./assets/images/gyu_buta_don_hero.png",
       "scene": "白米を主役にしたい",
       "time": "20分",

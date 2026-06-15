@@ -1,0 +1,37 @@
+[
+  {
+    "id": "chicken_nanban",
+    "title": "しっとり甘だれチキン南蛮",
+    "html": "./partials/details/detail_chicken_nanban.html"
+  },
+  {
+    "id": "ebi_tofu_manju",
+    "title": "ふわっと海老の豆腐まんじゅう",
+    "html": "./partials/details/detail_ebi_tofu_manju.html"
+  },
+  {
+    "id": "gyu_buta_don",
+    "title": "叙々苑風 牛豚丼",
+    "html": "./partials/details/detail_gyu_buta_don.html"
+  },
+  {
+    "id": "hamburg",
+    "title": "びくどん風ハンバーグ",
+    "html": "./partials/details/detail_hamburg.html"
+  },
+  {
+    "id": "kakuni",
+    "title": "じっくり煮込む極上豚の角煮",
+    "html": "./partials/details/detail_kakuni.html"
+  },
+  {
+    "id": "karaage",
+    "title": "究極のからあげ",
+    "html": "./partials/details/detail_karaage.html"
+  },
+  {
+    "id": "uni_cream_pasta",
+    "title": "濃厚うにクリームパスタ",
+    "html": "./partials/details/detail_uni_cream_pasta.html"
+  }
+]

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initProgressSlider() {
   const slider = document.getElementById('slider');
   const steps = document.querySelectorAll('.progress-bar .step');
   
@@ -19,4 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-});
+}
+
+document.addEventListener('DOMContentLoaded', initProgressSlider);
+window.initProgressSlider = initProgressSlider;
