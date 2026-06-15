@@ -6,6 +6,7 @@
 @import url("./layout_v2.css") layer(layout);
 @import url("./components_v2.css") layer(components);
 @import url("./site-header.css") layer(components);
+@import url("./breadcrumb.css") layer(components);
 @import url("./shop-carousel.css") layer(components);
 @import url("./side-banners.css") layer(components);
 @import url("./utilities_v2.css") layer(utilities);

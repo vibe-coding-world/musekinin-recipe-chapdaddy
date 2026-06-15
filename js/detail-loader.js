@@ -35,6 +35,11 @@ async function initDetailPage(contentElement, errorElement) {
   document.title = `${detail.title} - Chapdaddy 無責任レシピ`;
   contentElement.innerHTML = html;
   errorElement.hidden = true;
+  document.dispatchEvent(new CustomEvent('recipe-detail:loaded', {
+    detail: {
+      title: detail.title,
+    },
+  }));
 
   if (window.initProgressSlider) {
     window.initProgressSlider();
