@@ -12,6 +12,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style_v2.css">
   <script src="./js/app-header.js" defer></script>
+  <script src="./js/recipe-list.js" defer></script>
   <script src="./js/shop-banner.js" defer></script>
   <script src="./js/shop-side-banners.js" defer></script>
   <script src="./js/app-footer.js" defer></script>
@@ -76,27 +77,47 @@
       <section class="la_section la_stack u_stack_20">
         <div class="c_section-head">
           <span class="c_section-head__number">02</span>
-          <h2 class="text-hd-t02">おすすめ</h2>
+          <h2 class="text-hd-t02">今のおすすめ</h2>
         </div>
 
-        <div class="la_grid c_home-recipe-grid">
-          <a href="detail_uni_cream_pasta.html" class="c_home-recipe">
-            <img class="c_home-recipe__image" src="./assets/images/uni_cream_pasta_hero.png" alt="濃厚うにクリームパスタ">
-            <div class="c_home-recipe__body">
-              <p class="c_home-recipe__scene">今日の自分、よくやった</p>
-              <h3 class="text-hd-t03">濃厚うにクリームパスタ</h3>
-              <div class="la_cluster c_home-recipe__meta">
+        <div class="la_grid c_recipe-list" data-home-recipe-list>
+          <a class="c_list-recipe c_list-recipe--featured" href="detail_uni_cream_pasta.html">
+            <img class="c_list-recipe__image" src="./assets/images/uni_cream_pasta_hero.png" alt="濃厚うにクリームパスタ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">今日の自分、よくやった</small>
+              <strong class="text-hd-t03">濃厚うにクリームパスタ</strong>
+              <span class="la_cluster c_list-recipe__meta">
                 <span>20分</span>
                 <span>★★★☆☆</span>
-              </div>
-            </div>
+                <span>780 kcal</span>
+              </span>
+            </span>
           </a>
-          <a href="list.html" class="c_home-recipe c_home-recipe--compact">
-            <img class="c_home-recipe__image" src="./assets/images/karaage_hero.png" alt="からあげ">
-            <div class="c_home-recipe__body">
-              <p class="c_home-recipe__scene">揚げ物って幸せ</p>
-              <h3 class="text-hd-t03">究極のからあげ</h3>
-            </div>
+
+          <a class="c_list-recipe" href="detail_karaage.html">
+            <img class="c_list-recipe__image" src="./assets/images/karaage_hero.png" alt="究極のからあげ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">揚げ物って幸せ</small>
+              <strong class="text-hd-t03">究極のからあげ</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>30分</span>
+                <span>★★★★☆</span>
+                <span>1550 kcal</span>
+              </span>
+            </span>
+          </a>
+
+          <a class="c_list-recipe" href="detail_hamburg.html">
+            <img class="c_list-recipe__image" src="./assets/images/hamburg_step_5_finish.png" alt="びくどん風ハンバーグ">
+            <span class="c_list-recipe__body">
+              <small class="c_list-recipe__scene">ガッツリ食べたい日</small>
+              <strong class="text-hd-t03">びくどん風ハンバーグ</strong>
+              <span class="la_cluster c_list-recipe__meta">
+                <span>30分</span>
+                <span>★★★☆☆</span>
+                <span>1320 kcal</span>
+              </span>
+            </span>
           </a>
         </div>
       </section>

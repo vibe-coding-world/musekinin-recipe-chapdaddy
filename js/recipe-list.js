@@ -1,19 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
   const filterElement = document.querySelector('[data-recipe-filter]');
   const listElement = document.querySelector('[data-recipe-list]');
+  const homeListElement = document.querySelector('[data-home-recipe-list]');
   const countElement = document.querySelector('[data-recipe-count]');
   const emptyElement = document.querySelector('[data-recipe-empty]');
 
-  if (!filterElement || !listElement) {
-    return;
+  if (filterElement && listElement) {
+    initRecipeList({
+      filterElement,
+      listElement,
+      countElement,
+      emptyElement,
+    });
   }
 
-  initRecipeList({
-    filterElement,
-    listElement,
-    countElement,
-    emptyElement,
-  });
+  if (homeListElement) {
+    initHomeRecipes(homeListElement);
+  }
 });
 
 async function initRecipeList(elements) {
@@ -31,6 +34,22 @@ async function initRecipeList(elements) {
   renderRecipes(elements.listElement, randomRecipes);
   renderCount(elements.countElement, randomRecipes.length);
   renderEmpty(elements.emptyElement, randomRecipes.length);
+}
+
+async function initHomeRecipes(listElement) {
+  const data = await fetchRecipeData();
+
+  if (!data) {
+    return;
+  }
+
+  const recipes = shuffleRecipes(data.recipes.filter(isValidRecipe)).slice(0, 3);
+
+  if (recipes.length === 0) {
+    return;
+  }
+
+  renderRecipes(listElement, recipes);
 }
 
 async function fetchRecipeData() {
