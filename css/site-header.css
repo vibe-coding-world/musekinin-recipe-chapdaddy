@@ -1,0 +1,98 @@
+.c_site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-20);
+  padding: var(--space-15) var(--space-15);
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(0.625rem);
+}
+
+.c_site-header__nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-15);
+  min-width: 0;
+}
+
+.c_site-header__home,
+.c_site-header__mood {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.c_site-header__home {
+  flex: 0 0 auto;
+  padding-inline-end: var(--space-15);
+  border-inline-end: var(--line-hair) solid var(--color-line);
+}
+
+.c_site-header__mood {
+  gap: var(--space-5);
+  min-width: 0;
+  font-size: var(--text-md);
+  font-weight: 900;
+  line-height: 1;
+  text-box: var(--text-box-ja);
+  color: #333333;
+}
+
+.c_site-header__home .material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.c_site-header__mood .material-symbols-outlined {
+  font-size: 1rem !important;
+  color: #333333;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 16;
+  line-height: 0 !important;
+}
+
+.c_site-header__lead {
+  margin-inline-start: auto;
+  color: #666666;
+  font-size: 12px;
+  font-weight: 700;
+  text-box: var(--text-box-ja);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.c_site-header__brand {
+  color: var(--color-dark);
+  font-size: var(--text-xl);
+  font-weight: 900;
+  line-height: 1;
+  text-box: var(--text-box-ja);
+  white-space: nowrap;
+}
+
+@media (max-width: 36rem) {
+  .c_site-header {
+    gap: var(--space-10);
+    padding-inline: var(--space-15);
+  }
+
+  .c_site-header__nav {
+    gap: var(--space-10);
+  }
+
+  .c_site-header__home {
+    padding-inline-end: var(--space-10);
+  }
+
+  .c_site-header__mood {
+    font-size: var(--text-sm);
+    line-height: 0;
+  }
+
+  .c_site-header__mood .material-symbols-outlined {
+    font-size: 0.75rem !important;
+  }
+
+  .c_site-header__lead {
+    font-size: 11px;
+  }
+}

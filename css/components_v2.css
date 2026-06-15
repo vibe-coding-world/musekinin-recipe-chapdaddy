@@ -97,42 +97,6 @@
   aspect-ratio: 1 / 1;
 }
 
-.c_site-header {
-  display: grid;
-  grid-template-columns: 1.5rem 1fr 1.5rem;
-  align-items: center;
-  padding: var(--space-15) var(--space-20);
-  border-block-end: var(--line-hair) solid var(--color-line);
-  background: rgba(255, 250, 244, 0.92);
-  backdrop-filter: blur(0.625rem);
-}
-
-.c_site-header__back {
-  text-decoration: none;
-  font-size: var(--text-xl);
-  line-height: 1;
-}
-
-.c_site-header__body {
-  display: grid;
-  text-align: center;
-}
-
-.c_site-header__title {
-  text-align: center;
-  color: var(--color-dark);
-  font-size: var(--text-sm);
-  text-box: var(--text-box-ja);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.c_site-header__subtitle {
-  color: var(--color-muted);
-  font-size: var(--text-xs);
-  text-box: var(--text-box-ja);
-}
-
 .c_home-hero {
   position: relative;
   min-height: 27rem;
