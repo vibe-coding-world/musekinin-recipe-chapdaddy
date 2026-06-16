@@ -8,6 +8,7 @@
 @import url("./site-header.css") layer(components);
 @import url("./breadcrumb.css") layer(components);
 @import url("./about-recipe.css") layer(components);
+@import url("./recipe-note.css") layer(components);
 @import url("./shop-carousel.css") layer(components);
 @import url("./side-banners.css") layer(components);
 @import url("./utilities_v2.css") layer(utilities);

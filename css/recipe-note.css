@@ -1,0 +1,58 @@
+.c_recipe-note {
+  display: grid;
+  overflow: hidden;
+  background-image:
+    linear-gradient(180deg, rgba(18, 13, 10, 0.48), rgba(18, 13, 10, 0.68)),
+    url("../assets/images/about_recipe_note.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: var(--color-panel);
+}
+
+.c_recipe-note__panel {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-10);
+  padding: var(--space-40) var(--space-20);
+  background: rgba(10, 8, 7, 0.4);
+  text-align: center;
+}
+
+.c_recipe-note__icon {
+  width: 2.5rem;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+}
+
+.c_recipe-note__title {
+  color: var(--color-panel);
+  font-size: var(--text-2xl);
+  font-weight: 900;
+  line-height: 1.2;
+  text-box: var(--text-box-ja);
+}
+
+.c_recipe-note__lead {
+  font-size: var(--text-md);
+  font-weight: 800;
+  line-height: 1.5;
+  text-box: var(--text-box-ja);
+  margin-block-start: 1rem;
+}
+
+.c_recipe-note__list {
+  display: grid;
+  gap: var(--space-10);
+  /* max-width: 24rem; */
+  margin: 0;
+  text-align: start;
+  margin-block-start: 1rem;
+}
+
+.c_recipe-note__list>li {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: 1.7;
+  text-box: var(--text-box-ja);
+}
