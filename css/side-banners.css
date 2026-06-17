@@ -24,13 +24,45 @@ shop-side-banners {
     inset-inline-end: max(var(--space-20), calc((100vw - var(--measure-app)) / 2 - 21rem));
   }
 
-  .c_side-banners__item {
-    display: block;
+  .c_side-banners__slot {
     aspect-ratio: 1 / 1;
     overflow: hidden;
     background: var(--color-panel);
+  }
+
+  .c_side-banners__fade {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .c_side-banners__item {
+    position: absolute;
+    inset: 0;
+    display: block;
     color: inherit;
+    opacity: 0;
     text-decoration: none;
+  }
+
+  .c_side-banners__item:first-child {
+    opacity: 1;
+  }
+
+  .c_side-banners__fade .c_side-banners__item {
+    animation: side-banner-fade 24s infinite;
+  }
+
+  .c_side-banners__fade .c_side-banners__item:nth-child(2) {
+    animation-delay: 6s;
+  }
+
+  .c_side-banners__fade .c_side-banners__item:nth-child(3) {
+    animation-delay: 12s;
+  }
+
+  .c_side-banners__fade .c_side-banners__item:nth-child(4) {
+    animation-delay: 18s;
   }
 
   .c_side-banners__image {
@@ -38,5 +70,29 @@ shop-side-banners {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  @keyframes side-banner-fade {
+
+    0%,
+    37.5%,
+    100% {
+      opacity: 0;
+    }
+
+    12.5%,
+    25% {
+      opacity: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .c_side-banners__fade .c_side-banners__item {
+      animation: none;
+    }
+
+    .c_side-banners__fade .c_side-banners__item:first-child {
+      opacity: 1;
+    }
   }
 }
