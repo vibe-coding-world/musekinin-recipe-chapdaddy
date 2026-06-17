@@ -5,28 +5,28 @@ class MoodSection extends HTMLElement {
     this.moods = [
       {
         href: 'list.html?mood=hearty',
-        image: './assets/images/hamburg_hero.png',
+        image: './assets/images/hamburg_hero.webp',
         alt: 'ガッツリ食べたい日のハンバーグ',
         title: 'ガッツリ',
         note: '空腹時、外仕事後。',
       },
       {
         href: 'list.html?mood=light',
-        image: './assets/images/uni_pasta_step_5_finish.png',
+        image: './assets/images/uni_pasta_step_5_finish.webp',
         alt: 'さっぱり食べたい日の仕上げ料理',
         title: 'さっぱり',
         note: '夜遅い時、食欲が薄い時。',
       },
       {
         href: 'list.html?mood=tired',
-        image: './assets/images/oyakodon_bowl.png',
-        alt: '疲れている日に食べたい親子丼',
+        image: './assets/images/ebi_tofu_manju_hero.webp',
+        alt: '疲れている日に食べたい豆腐まんじゅう',
         title: '疲れてる',
         note: 'やさしく栄養を入れる。',
       },
       {
         href: 'list.html?mood=drink',
-        image: './assets/images/karaage_hero.png',
+        image: './assets/images/karaage_hero.webp',
         alt: '酒を飲みたい日のからあげ',
         title: '酒飲みたい',
         note: '週末の晩酌のお供。',
