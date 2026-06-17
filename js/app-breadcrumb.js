@@ -40,11 +40,18 @@ class AppBreadcrumb extends HTMLElement {
   }
 
   isDetailPage() {
-    return window.location.pathname.endsWith('/detail.html');
+    return this.getCurrentPage() === 'detail';
   }
 
   isListPage() {
-    return window.location.pathname.endsWith('/list.html');
+    return this.getCurrentPage() === 'list';
+  }
+
+  getCurrentPage() {
+    const pathname = window.location.pathname.replace(/\/$/, '');
+    const pageName = pathname.split('/').pop() || 'index';
+
+    return pageName.replace(/\.html$/, '') || 'index';
   }
 
   render() {
