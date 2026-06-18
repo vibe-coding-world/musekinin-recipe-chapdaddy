@@ -85,6 +85,6 @@ flowchart TD
 
 | 資料 | 用途 |
 |---|---|
-| `docs/Swiperドキュメン関連.md` | Swiper公式資料 |
-| `docs/2026-06-15_03-51_下部ECカルーセル/設計_下部ECカルーセル.md` | 既存Swiper利用方針 |
-| `docs/設計_共通.md` | CSS配置方針 |
+| `_docs/Swiperドキュメン関連.md` | Swiper公式資料 |
+| `_worklogs/2026-06-15_03-51_下部ECカルーセル/設計_下部ECカルーセル.md` | 既存Swiper利用方針 |
+| `_docs/設計_共通.md` | CSS配置方針 |

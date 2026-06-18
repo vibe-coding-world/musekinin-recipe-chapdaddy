@@ -71,7 +71,7 @@ flowchart TD
 
 ## CSS配置
 
-CSSは `docs/設計_共通.md` に従う。
+CSSは `_docs/設計_共通.md` に従う。
 
 ```mermaid
 flowchart TD
