@@ -109,6 +109,19 @@
         "hearty",
         "tired"
       ]
+    },
+    {
+      "title": "アクアパッツァ",
+      "file": "detail.html?id=acqua_pazza",
+      "image": "./assets/images/acqua_pazza_hero.webp",
+      "scene": "軽く飲みたい夜に、魚で満たす",
+      "time": "25分",
+      "difficulty": "★★★☆☆",
+      "calories": "520 kcal",
+      "moods": [
+        "light",
+        "drink"
+      ]
     }
   ]
 }

@@ -33,5 +33,10 @@
     "id": "uni_cream_pasta",
     "title": "濃厚うにクリームパスタ",
     "html": "./partials/details/detail_uni_cream_pasta.html"
+  },
+  {
+    "id": "acqua_pazza",
+    "title": "アクアパッツァ",
+    "html": "./partials/details/detail_acqua_pazza.html"
   }
 ]
