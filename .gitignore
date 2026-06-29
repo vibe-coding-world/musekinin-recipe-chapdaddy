@@ -7,3 +7,11 @@ build/
 .next/
 
 *.log
+
+# 除外したいローカル専用フォルダ
+_create-recipe/
+_docs/
+_knowledge-garden/
+_test-data/
+_worklogs/
+
