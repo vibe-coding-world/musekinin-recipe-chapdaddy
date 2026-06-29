@@ -122,6 +122,20 @@
         "light",
         "drink"
       ]
+    },
+    {
+      "title": "エビパスタ",
+      "file": "detail.html?id=ebi_pasta",
+      "image": "./assets/images/ebi_pasta_hero.webp",
+      "scene": "エビの旨みをしっかり吸わせたい日",
+      "time": "30分",
+      "difficulty": "★★★★☆",
+      "calories": "720 kcal",
+      "moods": [
+        "light",
+        "drink",
+        "tired"
+      ]
     }
   ]
 }

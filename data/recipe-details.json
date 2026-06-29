@@ -38,5 +38,10 @@
     "id": "acqua_pazza",
     "title": "アクアパッツァ",
     "html": "./partials/details/detail_acqua_pazza.html"
+  },
+  {
+    "id": "ebi_pasta",
+    "title": "エビパスタ",
+    "html": "./partials/details/detail_ebi_pasta.html"
   }
 ]
